@@ -1,6 +1,6 @@
 # rbr-rinko
 ## RBR Rinko Oxygen Sensor Problem
-(General Discussion)
+(General description of the problem)
 
 ## Updates from IOS 
 Our (IOS) RBR Concertos and Maestro using RINKO oxygen sensors where the logger has been setup to output %sat are using a fixed CTD temperature from the start of the CTD file in the calculation of volts to %sat instead of real-time CTD temperature.  
