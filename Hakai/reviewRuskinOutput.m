@@ -1,13 +1,13 @@
 
 %% Read both R-Eng data 20190225_datset
-cd('C:\Files\BarretteJ\1_WorkSpace\1_Data\2_Troubleshouting\20200513_ReviewRuskinVersion2.10')
+cd('C:\Users\jessy\Documents\repositories\rbr-rinko\Hakai')
 testFiles = ls('Ruskin 2.10\*rsk');
 testFiles = regexprep(cellstr(testFiles),'.rsk','');
 
-cd('C:\Files\BarretteJ\1_WorkSpace\1_Data\2_Troubleshouting\20200513_ReviewRuskinVersion2.10')
+%%
 for ii = 1:length(testFiles)
     % Load file
-    ii=10;
+    ii=2;
     inFileName = testFiles{ii};
     
     % Get 2.9 version
